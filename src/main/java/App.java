@@ -19,6 +19,8 @@ public class App {
         System.out.println(artwork1);
         System.out.println(gallery1);
 
+
+
     }
 
 

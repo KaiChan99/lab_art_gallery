@@ -16,9 +16,32 @@ public class Artwork{
 
     }
 
-    public float getPrice() {
-        return price;
+    public Artist getArtist() {
+        return artist;
     }
+
+    public void setArtist(Artist artist) {
+        this.artist = artist;
+    }
+
+    public String getTitle(){
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+
+    public float getPrice() {
+       return price;
+    }
+
+    public void setPrice() {
+        this.price = price;
+    }
+
+
 
 //    title, an artist, a price and an nft.,
 

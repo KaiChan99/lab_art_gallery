@@ -19,6 +19,10 @@ public class Customer {
     public float getWallet(){
         return wallet;
     }
-    
+
+    public void setWallet(){
+        this.wallet = wallet;
+    }
+
 
 }
