@@ -19,9 +19,9 @@ public class Gallery {
 
 
 
-    public void payGallery() {
-        if(Customer.getWallet() > artwork.getPrice()) {
-            Customer.getWallet() -= artwork.getPrice();
+    public void payGallery(Customer customer, Artwork artwork) {
+        if(customer.getWallet() >= artwork.getPrice()) {
+//            customer.getWallet() -= artwork.getPrice();
             till += artwork.getPrice();
         } else {
             System.out.println("You are broke!");

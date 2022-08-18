@@ -13,6 +13,7 @@ public class Customer {
     }
 
     public String getCustomerName(){
+
         return CustomerName;
     }
 
@@ -20,9 +21,6 @@ public class Customer {
         return wallet;
     }
 
-    public void setWallet(){
-        this.wallet = wallet;
-    }
 
 
 }

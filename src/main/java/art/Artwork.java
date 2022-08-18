@@ -5,14 +5,14 @@ public class Artwork{
     private String title;
     private Artist artist;
     private float price;
-    private int NFT;
+    private int nft;
 
-    public Artwork(String title, Artist artist, float price, int NFT){
+    public Artwork(String title, Artist artist, float price, int nft){
 
         this.title = title;
         this.artist = artist;
         this.price = price;
-        this.NFT = NFT;
+        this.nft = nft;
 
     }
 
@@ -20,29 +20,21 @@ public class Artwork{
         return artist;
     }
 
-    public void setArtist(Artist artist) {
-        this.artist = artist;
-    }
 
     public String getTitle(){
         return title;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
 
     public float getPrice() {
-       return price;
+
+        return price;
     }
 
-    public void setPrice() {
-        this.price = price;
+    public int getNft() {
+        return nft;
     }
 
-
-
-//    title, an artist, a price and an nft.,
+    //    title, an artist, a price and an nft.,
 
 }
